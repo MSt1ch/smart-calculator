@@ -32,7 +32,7 @@ class SmartCalculator {
   pow(number) {
     // your implementation
     
-    this.number1 = "Math.pow(" + this.number1 + "," + number + ")"
+    this.number1 =this.number1 + "**" + number
     return this
   }
 }
